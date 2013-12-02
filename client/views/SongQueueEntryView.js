@@ -3,5 +3,11 @@ window.MyTunes = window.MyTunes || {};
 window.MyTunes.Views = window.MyTunes.Views || {};
 
 MyTunes.Views.SongQueueEntryView = Backbone.View.extend({
+  initialize: function(){
 
+  },
+
+  render: function(){
+    console.log("SongQueueEntryView")
+  }
 });
